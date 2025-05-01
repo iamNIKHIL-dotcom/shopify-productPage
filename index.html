@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Listing - Redesign</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="logo">
+        <span class="banana">BANANA</span>
+        <span class="threads">Thr<span class="blue-letter">e</span>ads
+        </span>
+      </h1>
+      
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Catalog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="product-section">
+        <div class="product-image">
+          <img src="images/tshirt.png" alt="Banana Bliss Oversized T-shirt"/>
+        </div>
+        <div class="product-details">
+          <div class="title">
+            Banana Bliss Oversized T-shirt
+          </div>
+          <button class="size-chart-btn" id="openSizeChart">Size Chart</button>
+          <p class="price">₹1,179.82</p>
+          <div class="sizes">
+            <span class="size selected">S</span>
+            <span class="size">M</span>
+            <span class="size">L</span>
+            <span class="size">XL</span>
+            <span class="size">XXL</span>
+          </div>
+          <div class="quantity">
+            <button class="qty-btn" id="decreaseQty">-</button>
+            <span id="qtyValue">1</span>
+            <button class="qty-btn" id="increaseQty">+</button>
+          </div>
+          <button class="add-to-cart" id="add-to-cart">Add to Cart</button>
+          <button class="buy-now" id="buy-now">Buy it Now</button>
+        </div>
+      </section>
+
+      <section class="scroll-section">
+        <h3>More Products</h3>
+        <div class="scroll-container">
+          <img src="images/prod1.png" alt="Product 1"/>
+          <img src="images/prod2.png" alt="Product 2"/>
+          <img src="images/prod3.png" alt="Product 3"/>
+          <img src="images/prod4.png" alt="Product 4"/>
+          <img src="images/prod5.png" alt="Product 5"/>
+          <img src="images/prod6.png" alt="Product 6"/>
+          <img src="images/prod7.png" alt="Product 7"/>
+          <img src="images/prod8.png" alt="Product 8"/>
+        </div>
+      </section>
+    </main>
+  </div>
+
+
+  <div class="modal" id="sizeChartModal">
+    <div class="modal-content">
+      <div class="close" id="closeModal"> &times;</div>
+      <img src="images/sizechart.jpg" alt="Size Chart" class="size-chart-img"/>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
