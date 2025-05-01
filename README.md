@@ -1,4 +1,4 @@
-# shopify-productLandingPage
+
 # Shopify Product Landing Page
 
 ## Overview
