@@ -1,1 +1,1 @@
-# shopify-productPage
+# shopify-productLandingPage
